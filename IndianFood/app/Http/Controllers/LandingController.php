@@ -23,7 +23,6 @@ class LandingController extends Controller
         }
 
         $list_data = array_filter(explode("\n", $process->getOutput()));
-
         $data = [];
 
         foreach ($list_data as $book) {
